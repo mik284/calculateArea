@@ -2,11 +2,11 @@
 // i.e A circle, square or rectangle
 
 class Rectangle{ // Define the class name
-    constructor (length , width){ // defines and assigns the constructor arguments
+    constructor (length , width){ // defines and assigns the constructor PARAMS
         this.length = length
         this.width = width
     }
-    calculate_area(){// defines the function inside the class
+    calculate_area(){// defines the function/METHOD inside the class
         return this.length * this.width
     }
 }
